@@ -1,325 +1,432 @@
-You're right. The problem is that the **external GitHub Stats images are failing**, so even a correct README can show broken images.
-
-For a **truly reliable 10/10 README**, I recommend removing **ALL dynamic stats/images that depend on third-party APIs**. Keep only GitHub-native Markdown/HTML and your project links.
-
-Use this version — **no GitHub Stats, no streak cards, no external stats API**:
 
 ````markdown
 <div align="center">
 
-# HARIPRASAD K
+# 👋 HI, I'M HARIPRASAD K
 
-### Software Engineer · Java · AI Engineering · Full-Stack Development
+### SOFTWARE ENGINEER | JAVA | AI ENGINEERING | FULL-STACK DEVELOPMENT
 
-Building intelligent, secure, and production-oriented software systems.
+**Building intelligent systems. Engineering reliable software. Solving real problems.**
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://hariprasad-k-portfolio.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hariprasad-k-4665b0259/)
-[![Email](https://img.shields.io/badge/Email-111111?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hariprasadk716@gmail.com)
+[![Portfolio](https://img.shields.io/badge/🌐%20PORTFOLIO-111827?style=for-the-badge)](https://hariprasad-k-portfolio.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/💼%20LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hariprasad-k-4665b0259/)
+[![Email](https://img.shields.io/badge/✉️%20EMAIL-111827?style=for-the-badge&logo=gmail&logoColor=white)](mailto:hariprasadk716@gmail.com)
+
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=HARIPRASADK720&label=PROFILE%20VIEWS&style=for-the-badge)
 
 </div>
 
 ---
 
-## ABOUT
+# 🎯 WHAT I DO
 
-I'm an **Information Science & Engineering graduate** focused on building reliable software across **backend engineering, full-stack development, and applied AI**.
+```yaml
+name: Hariprasad K
 
-My work combines **Java, Spring Boot, modern web technologies, RAG, Agentic AI, secure APIs, databases, and deployment** to create practical software systems.
+role: Software Engineer
 
-I enjoy taking a problem from:
+education:
+  degree: Information Science & Engineering
 
-**Problem → Architecture → Implementation → Security → Testing → Deployment**
+core_focus:
+  - Java Backend Engineering
+  - Spring Boot Development
+  - AI Engineering
+  - Retrieval-Augmented Generation
+  - Agentic AI
+  - Full-Stack Development
 
-### What I Build
+backend:
+  - Java
+  - Spring Boot
+  - Spring Security
+  - REST APIs
+  - JPA / Hibernate
 
-- ☕ Java & Spring Boot backend systems
-- 🤖 AI applications using RAG and Agentic AI
-- 🔎 Context-grounded LLM applications
-- 💻 Modern full-stack applications
-- 🔐 Secure REST APIs and authentication systems
-- ⚡ Data-driven applications with PostgreSQL & Redis
-- 🐳 Containerized and deployable applications
+frontend:
+  - Next.js
+  - React
+  - TypeScript
+  - Tailwind CSS
+
+data:
+  - PostgreSQL
+  - Redis
+
+engineering:
+  - Authentication & Authorization
+  - API Security
+  - Concurrency
+  - Testing
+  - Docker
+  - CI/CD
+
+philosophy: "Build systems that solve real problems."
+````
 
 ---
 
-## ENGINEERING STACK
+# 🚀 WHAT I'M BUILDING
 
-### Backend
+### 🧠 AI-Powered Applications
 
-`Java` · `Spring Boot` · `Spring Security` · `REST APIs` · `JPA / Hibernate` · `JWT`
+Building practical AI systems using:
 
-### AI Engineering
+`RAG` · `LLMs` · `Agentic AI` · `Semantic Retrieval`
 
-`Generative AI` · `LLMs` · `RAG` · `Semantic Retrieval` · `Agentic AI` · `Prompt Engineering`
+### ☕ Backend Systems
 
-### Frontend
+Designing secure and reliable APIs using:
 
-`Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `HTML` · `CSS`
+`Java` · `Spring Boot` · `Spring Security`
 
-### Data
+### 🌐 Full-Stack Products
 
-`PostgreSQL` · `Redis`
+Creating complete applications with:
 
-### Infrastructure & Tools
+`Next.js` · `React` · `TypeScript` · `PostgreSQL`
 
-`Docker` · `Docker Compose` · `Git` · `GitHub` · `GitHub Actions` · `Vercel` · `Render`
+### 🐳 Production Engineering
+
+Working with:
+
+`Docker` · `GitHub Actions` · `Vercel` · `Render`
 
 ---
 
-# FEATURED PROJECTS
+# 🔥 FEATURED PROJECTS
 
-## 01 · SerenityCounsellor
+## 🧠 SerenityCounsellor
 
 ### AI-Powered Wellbeing & Counselling Platform
 
-A full-stack platform combining **RAG-based AI interaction, psychometric assessment, secure authentication, counselling workflows, appointment management, and safety-oriented application architecture**.
+A full-stack application combining AI-powered conversations, RAG, psychometric assessment, counselling workflows, appointment management, authentication, and security-focused backend architecture.
 
-### Engineering Highlights
+### ⚡ Key Engineering Work
 
-- 🔎 Retrieval-Augmented Generation for context-grounded responses
-- 🧠 Context-aware AI conversation architecture
-- 🔐 JWT authentication and role-based authorization
-- 🛡️ BOLA / IDOR protection
-- ⚡ Concurrency protection for appointment booking
-- 🔄 Refresh-token rotation and replay detection
-- 🚦 API rate limiting
-- 📡 Asynchronous event-driven processing
-- 🧪 Unit and integration testing
-- 🐳 Dockerized development environment
-- ⚙️ GitHub Actions CI workflow
+* 🔎 Retrieval-Augmented Generation
+* 🤖 AI-powered contextual conversations
+* 🔐 JWT authentication
+* 🛡️ Role-based authorization
+* 🛡️ BOLA / IDOR protection
+* ⚡ Appointment concurrency protection
+* 🔄 Refresh-token rotation
+* 🚦 API rate limiting
+* 📡 Asynchronous processing
+* 🧪 Unit & integration testing
+* 🐳 Dockerized architecture
+* ⚙️ GitHub Actions
 
-### Architecture
+### 🏗️ Architecture
 
 ```text
-                    ┌─────────────────────┐
-                    │   Next.js Frontend  │
-                    │     TypeScript      │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │   Spring Boot API   │
-                    └──────────┬──────────┘
-                               │
-              ┌────────────────┼────────────────┐
-              ▼                ▼                ▼
-       ┌────────────┐   ┌────────────┐   ┌────────────┐
-       │  Security  │   │    RAG     │   │  Services  │
-       └────────────┘   └────────────┘   └────────────┘
-              │                │                │
-              └────────────────┼────────────────┘
-                               ▼
-                    ┌─────────────────────┐
-                    │ PostgreSQL + Redis  │
-                    └─────────────────────┘
-````
+                  ┌─────────────────────┐
+                  │    NEXT.JS CLIENT   │
+                  │     TypeScript      │
+                  └──────────┬──────────┘
+                             │
+                             ▼
+                  ┌─────────────────────┐
+                  │   SPRING BOOT API  │
+                  │     REST LAYER      │
+                  └──────────┬──────────┘
+                             │
+            ┌────────────────┼────────────────┐
+            ▼                ▼                ▼
+       ┌──────────┐    ┌──────────┐    ┌──────────┐
+       │ SECURITY │    │   RAG    │    │ SERVICES │
+       └──────────┘    └──────────┘    └──────────┘
+            │                │                │
+            └────────────────┼────────────────┘
+                             ▼
+                  ┌─────────────────────┐
+                  │ POSTGRESQL + REDIS  │
+                  └─────────────────────┘
+```
 
 **Stack**
 
-`Java` · `Spring Boot` · `Spring Security` · `Spring AI`
-`Next.js` · `TypeScript` · `PostgreSQL` · `Redis`
-`Docker` · `GitHub Actions` · `JUnit`
+`Java` `Spring Boot` `Spring Security` `Spring AI`
+`Next.js` `TypeScript` `PostgreSQL` `Redis`
+`Docker` `GitHub Actions` `JUnit`
 
-**Repository**
-
-[View SerenityCounsellor →](https://github.com/HARIPRASADK720/SerenityCouncellor)
+🔗 **[View Repository](https://github.com/HARIPRASADK720/SerenityCouncellor)**
 
 ---
 
-## 02 · QuizCogniVault
+# 🧩 QuizCogniVault
 
 ### Knowledge-Adaptive Assessment Intelligence
 
-An AI-powered assessment platform combining **RAG, controlled Agentic AI workflows, adaptive assessment, AI tutoring, knowledge profiling, and technical interview simulation**.
+An AI-powered assessment platform designed around adaptive learning, RAG, controlled Agentic AI workflows, AI tutoring, knowledge profiling, and technical interview simulation.
 
-### Intelligence Loop
+### 🧠 Intelligence Pipeline
 
 ```text
-        ASSESS
-          ↓
-      UNDERSTAND
-          ↓
-        ADAPT
-          ↓
-       EXPLAIN
-          ↓
-      RECOMMEND
-          ↓
-       REASSESS
+              USER
+               │
+               ▼
+            ASSESS
+               │
+               ▼
+          UNDERSTAND
+               │
+               ▼
+             ADAPT
+               │
+               ▼
+           EXPLAIN
+               │
+               ▼
+          RECOMMEND
+               │
+               ▼
+           REASSESS
 ```
 
-### Engineering Highlights
+### ⚡ Key Engineering Work
 
 * 🤖 Controlled Agentic AI workflow
-* 🔎 Grounded RAG with source attribution
-* 📐 Adaptive assessment and difficulty logic
-* 🧑‍🏫 AI Tutor with multiple explanation modes
-* 💼 AI-powered technical interview simulation
-* 📊 Knowledge profiling and learning journey
-* 🔐 JWT authentication and role-based access
+* 🔎 Grounded RAG
+* 📚 Source-aware retrieval
+* 📐 Adaptive difficulty
+* 🧑‍🏫 AI Tutor
+* 💼 Technical interview simulation
+* 📊 Knowledge profiling
+* 🔐 JWT authentication
 * ⚡ Redis caching
 * 🗄️ PostgreSQL persistence
 * 🧪 Backend testing
-* 🚀 Deployed application
 
 **Stack**
 
-`Java` · `Spring Boot` · `Spring AI` · `Next.js`
-`TypeScript` · `PostgreSQL` · `Redis` · `JWT` · `RAG`
+`Java` `Spring Boot` `Spring AI` `Next.js`
+`TypeScript` `PostgreSQL` `Redis` `JWT`
 
-**Repository**
+🔗 **[Repository](https://github.com/HARIPRASADK720/QuizCogniVault)**
 
-[View QuizCogniVault →](https://github.com/HARIPRASADK720/QuizCogniVault)
-
-**Live Application**
-
-[Launch QuizCogniVault →](https://frontend-seven-lime-80.vercel.app/)
+🌐 **[Live Application](https://frontend-seven-lime-80.vercel.app/)**
 
 ---
 
-## 03 · GreenLeaf Nursery
+# 🌱 GREENLEAF NURSERY
 
-### Full-Stack Digital Nursery Platform
+### Full-Stack Nursery Platform
 
 A modern full-stack application focused on delivering a polished digital experience for nursery management and online plant shopping.
 
 **Focus**
 
-`Full-Stack Development` · `REST APIs` · `Database Integration` · `Modern UI` · `Deployment`
+`Full-Stack` · `REST APIs` · `Database Integration` · `UI/UX` · `Deployment`
 
-[View GreenLeaf Nursery →](https://github.com/HARIPRASADK720/Nurserywebsite)
-
----
-
-## 04 · Developer Portfolio
-
-### Personal Engineering Portfolio
-
-A modern portfolio showcasing my projects, technical capabilities, and professional profile.
-
-**Focus**
-
-`Frontend Development` · `Responsive UI` · `Portfolio Engineering` · `Web Deployment`
-
-[View Portfolio →](https://hariprasad-k-portfolio.vercel.app/)
+🔗 **[View Repository](https://github.com/HARIPRASADK720/Nurserywebsite)**
 
 ---
 
-# AI ENGINEERING
+# 🌐 PERSONAL PORTFOLIO
 
-My AI work focuses on integrating intelligence into **real application architectures**, rather than treating an LLM as an isolated feature.
+A modern developer portfolio showcasing my projects, technical capabilities, and engineering journey.
+
+🌐 **[Visit Portfolio](https://hariprasad-k-portfolio.vercel.app/)**
+
+---
+
+# 💻 TECHNOLOGY
+
+<div align="center">
+
+### ☕ LANGUAGES
+
+<img src="https://skillicons.dev/icons?i=java,python,javascript,typescript,html,css" />
+
+<br/><br/>
+
+### ⚙️ BACKEND & FRAMEWORKS
+
+<img src="https://skillicons.dev/icons?i=spring,nextjs,react" />
+
+<br/><br/>
+
+### 🗄️ DATABASES
+
+<img src="https://skillicons.dev/icons?i=postgres,redis" />
+
+<br/><br/>
+
+### 🐳 TOOLS & INFRASTRUCTURE
+
+<img src="https://skillicons.dev/icons?i=docker,git,github,vscode,vercel" />
+
+</div>
+
+---
+
+# 🤖 AI ENGINEERING
 
 ### Retrieval-Augmented Generation
 
 ```text
-User Query
-     ↓
-Retrieval
-     ↓
-Relevant Context
-     ↓
-Prompt Construction
-     ↓
-LLM Generation
-     ↓
-Grounded Response
+┌───────────────┐
+│   USER QUERY  │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│   RETRIEVAL   │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│    CONTEXT    │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│      LLM      │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│    RESPONSE   │
+└───────────────┘
 ```
 
 ### Agentic AI
 
 ```text
-Understand
-    ↓
-Decide
-    ↓
-Select Action / Tool
-    ↓
-Execute
-    ↓
-Evaluate
-    ↓
-Respond
+INPUT
+  ↓
+UNDERSTAND
+  ↓
+DECIDE
+  ↓
+SELECT TOOL / ACTION
+  ↓
+EXECUTE
+  ↓
+EVALUATE
+  ↓
+RESPOND
 ```
 
-The goal is to build AI systems that are **grounded, controlled, context-aware, and connected to real application workflows**.
+My focus is on building AI systems that are:
+
+**Grounded · Controlled · Context-Aware · Useful**
 
 ---
 
-# ENGINEERING MINDSET
+# 🛠️ ENGINEERING PRINCIPLES
 
-> **Architecture over buzzwords.**
+### 01 — Architecture
 
-Good software is not defined by the number of technologies in the stack.
+Design the system before writing unnecessary code.
 
-It is defined by how well the system handles:
+### 02 — Security
 
-**Correctness · Security · Reliability · Maintainability · Scalability**
+Treat authentication, authorization, validation, and access control as core engineering concerns.
 
-### Development Approach
+### 03 — Reliability
+
+Critical workflows should behave correctly under concurrent requests and failure conditions.
+
+### 04 — Maintainability
+
+Prefer clear architecture and understandable code over unnecessary complexity.
+
+### 05 — Practical AI
+
+Use AI where it provides genuine value — not simply because an LLM can be added.
+
+---
+
+# 📚 CURRENTLY LEARNING
 
 ```text
-Problem
-   ↓
-Understand the Domain
-   ↓
-Design the Architecture
-   ↓
-Build the Core System
-   ↓
-Integrate Intelligence Where It Adds Value
-   ↓
-Secure Critical Paths
-   ↓
-Test Important Behaviour
-   ↓
-Containerize
-   ↓
-Deploy
+┌─────────────────────────────────────────────┐
+│                                             │
+│  ☕ Advanced Java & Spring Boot              │
+│                                             │
+│  🏗️ System Design & Backend Architecture    │
+│                                             │
+│  🤖 RAG & Agentic AI                        │
+│                                             │
+│  🔐 Secure API Architecture                 │
+│                                             │
+│  🗄️ PostgreSQL & Redis                      │
+│                                             │
+│  🐳 Docker & CI/CD                          │
+│                                             │
+└─────────────────────────────────────────────┘
 ```
 
 ---
 
-# CURRENT FOCUS
-
-| Area             | Focus                                        |
-| ---------------- | -------------------------------------------- |
-| ☕ Backend        | Java · Spring Boot · REST APIs               |
-| 🏗️ Architecture | System Design · Backend Architecture         |
-| 🤖 AI            | RAG · Agentic AI · LLM Applications          |
-| 🔐 Security      | Authentication · Authorization · Secure APIs |
-| 🗄️ Data         | PostgreSQL · Redis                           |
-| 🚀 DevOps        | Docker · CI/CD · Deployment                  |
-
----
-
-# CONNECT
+# 📊 GITHUB ANALYTICS
 
 <div align="center">
 
-### Software Engineering · AI Systems · Full-Stack Development
+<img src="https://github-readme-stats.vercel.app/api?username=HARIPRASADK720&show_icons=true&hide_border=true&include_all_commits=true&rank_icon=github&theme=transparent" />
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/VISIT_PORTFOLIO-111111?style=for-the-badge\&logo=vercel\&logoColor=white)](https://hariprasad-k-portfolio.vercel.app/)
-
-[![LinkedIn](https://img.shields.io/badge/CONNECT_ON_LINKEDIN-111111?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/hariprasad-k-4665b0259/)
-
-[![Email](https://img.shields.io/badge/GET_IN_TOUCH-111111?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:hariprasadk716@gmail.com)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HARIPRASADK720&layout=compact&hide_border=true&langs_count=8&theme=transparent" />
 
 <br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=HARIPRASADK720&hide_border=true&theme=transparent" />
+
+</div>
+
+---
+
+# 🐍 CONTRIBUTION ACTIVITY
+
+<div align="center">
+
+![GitHub Contribution Snake](https://raw.githubusercontent.com/HARIPRASADK720/HARIPRASADK720/output/github-contribution-grid-snake.svg)
+
+</div>
+
+---
+
+# 💡 QUICK FACTS
+
+* ☕ Java is my primary backend language
+* 🤖 Interested in practical AI engineering
+* 🔎 Building with RAG and Agentic AI
+* 🏗️ Interested in backend architecture and system design
+* 🔐 Security is part of the architecture, not an afterthought
+* 🚀 I enjoy turning ideas into deployable applications
+* 📚 Constantly learning and improving
+
+---
+
+# 🤝 LET'S CONNECT
+
+<div align="center">
+
+### HAVE AN IDEA? LET'S BUILD IT.
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/🌐%20EXPLORE%20PORTFOLIO-111111?style=for-the-badge)](https://hariprasad-k-portfolio.vercel.app/)
+
+[![LinkedIn](https://img.shields.io/badge/💼%20LINKEDIN-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/hariprasad-k-4665b0259/)
+
+[![Email](https://img.shields.io/badge/✉️%20EMAIL-111111?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:hariprasadk716@gmail.com)
+
+<br/><br/>
 
 **HARIPRASAD K**
 
-`Java` · `Spring Boot` · `Full-Stack` · `RAG` · `Agentic AI`
+`Java` · `Spring Boot` · `AI Engineering` · `RAG` · `Agentic AI` · `Full-Stack`
 
 <br/>
 
-<sub>Build with purpose. Learn continuously. Ship consistently.</sub>
+---
+
+### BUILD • LEARN • ENGINEER • DEPLOY
 
 </div>
 ```
 
-**This version removes the source of the broken cards entirely.** Your profile will still look polished even if an external service goes down, because the core README doesn't depend on dynamic GitHub-stat image servers.
