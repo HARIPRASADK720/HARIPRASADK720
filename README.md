@@ -1,3 +1,4 @@
+````markdown
 <div align="center">
 
 # HARIPRASAD K
@@ -125,23 +126,29 @@ A full-stack platform combining **RAG-powered AI interaction, psychometric asses
 ┌──────────────────────────────┐
 │     PostgreSQL + Redis       │
 └──────────────────────────────┘
+````
 
-Core Stack
+**Core Stack**
 
-Java Spring Boot Spring Security Spring AI
-Next.js TypeScript PostgreSQL Redis
-Docker GitHub Actions JUnit
+`Java` `Spring Boot` `Spring Security` `Spring AI`
+`Next.js` `TypeScript` `PostgreSQL` `Redis`
+`Docker` `GitHub Actions` `JUnit`
 
-Repository
+**Repository**
 
-→ View SerenityCounsellor
+→ [View SerenityCounsellor](https://github.com/HARIPRASADK720/SerenityCouncellor)
 
-02 — QuizCogniVault
-Knowledge-Adaptive Assessment Intelligence
+---
 
-An AI-powered assessment platform combining RAG, controlled Agentic AI workflows, adaptive assessment, AI tutoring, knowledge profiling, and technical interview simulation.
+## 02 — QuizCogniVault
 
-Intelligence Loop
+### Knowledge-Adaptive Assessment Intelligence
+
+An AI-powered assessment platform combining **RAG, controlled Agentic AI workflows, adaptive assessment, AI tutoring, knowledge profiling, and technical interview simulation.**
+
+### Intelligence Loop
+
+```text
        ┌──────────┐
        │  ASSESS  │
        └────┬─────┘
@@ -165,59 +172,72 @@ Intelligence Loop
         ┌──────────┐
         │ REASSESS │
         └──────────┘
-Engineering Highlights
-🤖 Controlled Agentic AI workflow
-🔎 Grounded RAG with source attribution
-📐 Adaptive assessment and difficulty logic
-🧑‍🏫 AI Tutor with multiple explanation modes
-💼 AI-powered technical interview simulation
-📊 Knowledge profiling and learning journey
-🔐 JWT authentication and role-based access
-⚡ Redis caching
-🗄️ PostgreSQL persistence
-🧪 Backend testing
-🚀 Deployed application
+```
 
-Core Stack
+### Engineering Highlights
 
-Java Spring Boot Spring AI Next.js
-TypeScript PostgreSQL Redis JWT RAG
+* 🤖 Controlled Agentic AI workflow
+* 🔎 Grounded RAG with source attribution
+* 📐 Adaptive assessment and difficulty logic
+* 🧑‍🏫 AI Tutor with multiple explanation modes
+* 💼 AI-powered technical interview simulation
+* 📊 Knowledge profiling and learning journey
+* 🔐 JWT authentication and role-based access
+* ⚡ Redis caching
+* 🗄️ PostgreSQL persistence
+* 🧪 Backend testing
+* 🚀 Deployed application
 
-Repository
+**Core Stack**
 
-→ View QuizCogniVault
+`Java` `Spring Boot` `Spring AI` `Next.js`
+`TypeScript` `PostgreSQL` `Redis` `JWT` `RAG`
 
-Live Application
+**Repository**
 
-→ Launch QuizCogniVault
+→ [View QuizCogniVault](https://github.com/HARIPRASADK720/QuizCogniVault)
 
-03 — GreenLeaf Nursery
-Full-Stack Digital Nursery Platform
+**Live Application**
+
+→ [Launch QuizCogniVault](https://frontend-seven-lime-80.vercel.app/)
+
+---
+
+## 03 — GreenLeaf Nursery
+
+### Full-Stack Digital Nursery Platform
 
 A modern full-stack application designed around a polished digital experience for nursery management and online plant shopping.
 
-Focus
+**Focus**
 
-Full-Stack Development · REST APIs · Database Integration · Modern UI · Deployment
+`Full-Stack Development` · `REST APIs` · `Database Integration` · `Modern UI` · `Deployment`
 
-→ View GreenLeaf Nursery
+→ [View GreenLeaf Nursery](https://github.com/HARIPRASADK720/Nurserywebsite)
 
-04 — Personal Portfolio
-Developer Portfolio
+---
+
+## 04 — Personal Portfolio
+
+### Developer Portfolio
 
 A modern personal portfolio designed to showcase my engineering projects, technical capabilities, and professional profile.
 
-Focus
+**Focus**
 
-Frontend Development · Responsive UI · Portfolio Engineering · Web Deployment
+`Frontend Development` · `Responsive UI` · `Portfolio Engineering` · `Web Deployment`
 
-→ View Portfolio
+→ [View Portfolio](https://hariprasad-k-portfolio.vercel.app/)
 
-AI ENGINEERING
+---
 
-My approach to AI is focused on integrating intelligence into software architecture, rather than treating an LLM as an isolated feature.
+# AI ENGINEERING
 
-Retrieval-Augmented Generation
+My approach to AI is focused on **integrating intelligence into software architecture**, rather than treating an LLM as an isolated feature.
+
+### Retrieval-Augmented Generation
+
+```text
                  USER QUERY
                      │
                      ▼
@@ -238,7 +258,11 @@ Retrieval-Augmented Generation
                      │
                      ▼
              GROUNDED RESPONSE
-Agentic AI
+```
+
+### Agentic AI
+
+```text
       INPUT
         │
         ▼
@@ -258,20 +282,25 @@ Agentic AI
         │
         ▼
      RESPOND
+```
 
-I focus on building AI systems that are grounded, controlled, context-aware, and connected to real application workflows.
+I focus on building AI systems that are **grounded, controlled, context-aware, and connected to real application workflows.**
 
-ENGINEERING PRINCIPLES
+---
 
-Architecture over buzzwords.
+# ENGINEERING PRINCIPLES
+
+> **Architecture over buzzwords.**
 
 Good software is not measured by the number of technologies in the stack.
 
 It is measured by how well the system handles:
 
-Correctness · Security · Reliability · Maintainability · Scalability
+**Correctness · Security · Reliability · Maintainability · Scalability**
 
-My Development Flow
+### My Development Flow
+
+```text
 Problem
    ↓
 Understand the Domain
@@ -289,43 +318,76 @@ Test Important Behaviour
 Containerize
    ↓
 Deploy
-CURRENT FOCUS
-Area	Direction
-☕ Backend Engineering	Java · Spring Boot · REST APIs
-🏗️ Architecture	System Design · Scalable Backend Systems
-🤖 AI Engineering	RAG · Agentic AI · LLM Applications
-🔐 Security	Authentication · Authorization · Secure APIs
-🗄️ Data	PostgreSQL · Redis
-🚀 DevOps	Docker · CI/CD · Deployment
-GITHUB
+```
+
+---
+
+# CURRENT FOCUS
+
+| Area                      | Direction                                    |
+| ------------------------- | -------------------------------------------- |
+| ☕ **Backend Engineering** | Java · Spring Boot · REST APIs               |
+| 🏗️ **Architecture**      | System Design · Scalable Backend Systems     |
+| 🤖 **AI Engineering**     | RAG · Agentic AI · LLM Applications          |
+| 🔐 **Security**           | Authentication · Authorization · Secure APIs |
+| 🗄️ **Data**              | PostgreSQL · Redis                           |
+| 🚀 **DevOps**             | Docker · CI/CD · Deployment                  |
+
+---
+
+# GITHUB
+
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=HARIPRASADK720&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&theme=transparent" height="170" alt="Hariprasad K GitHub Statistics" />
+<img
+src="https://github-readme-stats.vercel.app/api?username=HARIPRASADK720&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&theme=transparent"
+height="170"
+alt="Hariprasad K GitHub Statistics"
+/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HARIPRASADK720&layout=compact&hide_border=true&langs_count=8&theme=transparent" height="170" alt="Hariprasad K Top Languages" />
+<img
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=HARIPRASADK720&layout=compact&hide_border=true&langs_count=8&theme=transparent"
+height="170"
+alt="Hariprasad K Top Languages"
+/>
 
 </div>
-CONNECT
+
+---
+
+# CONNECT
+
 <div align="center">
-Software Engineering · AI Systems · Full-Stack Development
-<br /> <a href="https://hariprasad-k-portfolio.vercel.app/"> <img src="https://img.shields.io/badge/VISIT_PORTFOLIO-111111?style=for-the-badge&logo=vercel&logoColor=white" /> </a>
 
- 
+### Software Engineering · AI Systems · Full-Stack Development
 
-<a href="https://www.linkedin.com/in/hariprasad-k-4665b0259/"> <img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-111111?style=for-the-badge&logo=linkedin&logoColor=white" /> </a>
+<br />
 
- 
+<a href="https://hariprasad-k-portfolio.vercel.app/">
+<img src="https://img.shields.io/badge/VISIT_PORTFOLIO-111111?style=for-the-badge&logo=vercel&logoColor=white" />
+</a>
 
-<a href="mailto:hariprasadk716@gmail.com"> <img src="https://img.shields.io/badge/GET_IN_TOUCH-111111?style=for-the-badge&logo=gmail&logoColor=white" /> </a>
+ 
+
+<a href="https://www.linkedin.com/in/hariprasad-k-4665b0259/">
+<img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-111111?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+ 
+
+<a href="mailto:hariprasadk716@gmail.com">
+<img src="https://img.shields.io/badge/GET_IN_TOUCH-111111?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
 
 <br /><br />
 
-HARIPRASAD K
+**HARIPRASAD K**
 
-Java · Spring Boot · Full-Stack · RAG · Agentic AI
+`Java` · `Spring Boot` · `Full-Stack` · `RAG` · `Agentic AI`
 
 <br />
 
 <sub>Build with purpose. Learn continuously. Ship consistently.</sub>
 
-</div> ```
+</div>
+```
